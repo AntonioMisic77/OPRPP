@@ -1,0 +1,12 @@
+package hr.fer.oprpp1.custom.collections;
+
+public interface ElementsGetter {
+	
+	boolean hasNextElement();
+	
+    Object getNextElement();
+    
+    void processRemaining(Processor p);
+	
+	
+}
